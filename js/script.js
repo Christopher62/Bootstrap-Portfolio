@@ -11,9 +11,9 @@ $(function(){
       $("#cameleonDiv").animate( {backgroundColor:"#99CCFF", color:"black"}, 1000 );
   });
   $("#btn3").click(function(){
-      $("#contain, #portfolio").animate( {backgroundColor:"#FF9900", color:"black"}, 5000 );
-      $("#contain, #portfolio").animate( {backgroundColor:"#FF9900", color:"black"}, 1000 );
+      $("#contain, #portfolio").animate( {backgroundColor:"#3B5998", color:"black"}, 5000 );
   });
+
 });
 $(document).ready(function(){
     $("#disappear").click(function(){
@@ -21,7 +21,7 @@ $(document).ready(function(){
     });
 });
     $("#iconup").click(function(){
-        alert("Voulez-vous retourner en haut de page ?");
+        alert("Voulez vous retourner en haut de page ?");
         alert("Vous ne voulez pas retourner sur une partie précise ?");
         alert("Bon ben retour en haut de page !");
     });
