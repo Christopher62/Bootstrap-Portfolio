@@ -6,10 +6,11 @@ body{
   background-image: url(../images/imgubuntu.png);
   background-size: cover;
 }
-nav{
+#nav1{
   background-color: #000000;
+  border: none;
 }
-.navbar a {
+#nav1 a {
   text-decoration: none;
   text-transform: uppercase;
   color: orange;
@@ -37,9 +38,6 @@ nav{
   padding: 5px;
   margin: auto;
   width: 100%;
-}
-#portfolio li{
-  background-color: lightblue;
 }
 #title1{
   font-style: italic;
