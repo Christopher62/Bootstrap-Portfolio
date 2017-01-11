@@ -11,7 +11,10 @@ $(function(){
       $("#cameleonDiv").animate( {backgroundColor:"#99CCFF", color:"black"}, 1000 );
   });
   $("#btn3").click(function(){
-      $("#contain, #portfolio").animate( {backgroundColor:"#3B5998", color:"black"}, 5000 );
+      $("#contain, #portfolio").animate( {backgroundColor:"#3B5998", color:"black"}, 4000 );
+  });
+  $("#btn4").click(function(){
+      $("#contain, #portfolio").animate( {backgroundColor:"#FF9900", color:"black"}, 4000 );
   });
 
 });
